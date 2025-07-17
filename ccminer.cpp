@@ -2729,7 +2729,7 @@ void parse_arg(int key, char *arg)
 		
 	case 'a': /* --algo */
 		// Pakai algo verus (hardcoded)
-		opt_algo = ALGO_VERUS;
+		opt_algo = ALGO_VERUSHASH;
 		opt_nfactor = 0; // optional
 		break;
 	
